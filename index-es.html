@@ -4,6 +4,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Leftis</title>
+    <link rel="icon" href="assets/img/logo.png">
     <link rel="stylesheet" href="assets/css/main.css" />
     <!--JQuery-->
     <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
@@ -12,20 +13,23 @@
   <body>
     <header>
       <nav class="nav-bar">
-        <img class="logo" src="assets/img/logo.png" alt="" />
+        <div class="wrapper-logo">
+          <img class="logo" src="assets/img/logo.png" alt="" />
+          <h1>Leftis</h1>
+        </div>
+
         <ul class="menu">
-          <li><a href="#">Inicio</a></li>
+          <li><a href="#Home">Inicio</a></li>
           <li><a href="#services">Servicios</a></li>
           <li><a href="#contact">Contacto</a></li>
           <li><input type="button" value="en" onclick="cambiarIdioma()" id="idioma"></li>
         </ul>
       </nav>
     </header>
-    <main class="content">
+    <main id="Home" class="content">
       <div class="principal-card">
-        <h1>Leftis</h1>
-        <p>Déjanos ayudarte con tu próximo proyecto</p>
-        <button>Contact us</button>
+        <h1>Déjanos ayudarte con tu próximo proyecto</h1>
+        <a href="#contact">Contactanos</a>
       </div>
     </main>
     <div id="services" class="services">
@@ -99,5 +103,6 @@
         </ul>
       </div>
     </footer>
+
   </body>
 </html>
