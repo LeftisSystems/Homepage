@@ -10,7 +10,10 @@ $(document).ready(function () {
     );
   });
   return false;
+
 });
+
+
 
 //cambiar idioma de la pagina
 function cambiarIdioma() {

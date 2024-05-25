@@ -33,7 +33,13 @@ body {
     justify-content: space-between;
     align-items: center;
     padding: 1rem 2rem;
+    box-shadow: 0px 0px 5px rgba(164, 216, 255, 0.5);
+    margin-bottom: 10px;
+    position: fixed;
+    width: 100%;
+    background-color: var(--primary-color);
 }
+
 
 .nav-bar .logo {
     color: var(--secondary-color);
@@ -48,11 +54,12 @@ body {
 }
 
 .menu a {
-    color: var(--white-color);
+    color: var(--secondary-color);
     font-size: 1.2rem;
     font-weight: 500;
     text-decoration: none;
     transition: all 0.3s ease;
+
 }
 
 .menu li {
@@ -75,14 +82,19 @@ body {
 .content {
     padding: 10rem;
     display: flex;
+
+}
+
+.principal-card {
+    margin-top: 4rem;
 }
 
 .content .principal-card button {
     padding: 1rem 2rem;
     font-size: 1.2rem;
     font-weight: 500;
-    color: var(--background-color);
-    background-color: var(--secondary-color);
+    background-color: var(--background-color);
+    color: var(--secondary-color);
     border: none;
     border-radius: 5px;
     cursor: pointer;
@@ -91,9 +103,11 @@ body {
 }
 
 .content {
-    background-image: url(../img/main.svg);
-    background-size: cover;
-    background-position: end;
+    display: flex;
+    flex-direction: row;
+    background-color:#A4D8FF;
+    color :#101720;
+
 }
 
 @media screen and (max-width: 768px) {
