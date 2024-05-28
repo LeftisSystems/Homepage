@@ -38,7 +38,12 @@ body {
     position: fixed;
     width: 100%;
     background-color: var(--primary-color);
+
 }
+.nav-bar button {
+   background-color: var(--secondary-color);
+}
+
 
 .wrapper-logo {
     display: flex;
@@ -53,7 +58,7 @@ body {
     margin-right: 10px;
 }
 
-.wrapper-logo h1 {
+.wrapper-logo a {
     color: var(--secondary-color);
     font-size: 1.5rem;
     font-weight: 600;
@@ -398,4 +403,6 @@ footer {
         align-items: center;
     }
 
+   
 }
+
