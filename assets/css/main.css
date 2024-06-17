@@ -174,7 +174,7 @@ body {
     font-size: 2rem;
     font-weight: 200;
     font-size: 70px;
-
+    text-align: center;
     color: var(--secondary-color);
 }
 
@@ -213,6 +213,11 @@ body {
     gap: 1rem;
     padding: 2rem;
 }
+.service-card h2 {
+    font-size: 1.5rem;
+    font-weight: 500;
+    color: var(--white-color);
+}
 
 .service-card p {
     text-align: center;
@@ -238,6 +243,26 @@ body {
     height: 50%;
 }
 
+.client{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 2rem;
+    margin-top: 2rem;
+    background-color: var(--secondary-color);
+}
+
+.client-logos{
+    display: flex;
+    flex-direction: row;
+    gap: 2rem;
+    padding: 4rem;
+}
+.client-logos img {
+    width: 150px;
+    height: 150px;
+    opacity: 0.9;
+}
 /* Contact*/
 .contact {
     display: flex;
