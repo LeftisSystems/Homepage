@@ -18,7 +18,11 @@ body {
     line-height: 1.6;
 
 }
+.nav-link:hover{
+    transition: all 0.3s ease;
+    border-bottom: #A4D8FF 1px solid;
 
+}
 :root {
     --primary-color: #101720;
     --secondary-color: #A4D8FF;
