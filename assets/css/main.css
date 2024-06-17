@@ -38,6 +38,7 @@ body {
     position: fixed;
     width: 100%;
     background-color: var(--primary-color);
+    z-index: 999;
 
 }
 .nav-bar button {
@@ -173,6 +174,7 @@ body {
     font-size: 2rem;
     font-weight: 200;
     font-size: 70px;
+
     color: var(--secondary-color);
 }
 
@@ -215,6 +217,9 @@ body {
 .service-card p {
     text-align: center;
     color: var(--secondary-color);
+}
+.service-card h2{
+    text-align: center;
 }
 
 .cover-logo {
@@ -365,6 +370,7 @@ footer {
 }
 
 .footer-social {
+
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -396,11 +402,19 @@ footer {
     .footer-menu ul {
         flex-direction: column;
         align-items: center;
+        margin: 0;
+        padding: 0;
     }
 
     .footer-social ul {
-        flex-direction: column;
+        flex-direction: row;
         align-items: center;
+        margin: 0;
+        padding: 0;
+    }
+
+    .footer-logo{
+        margin: 0;
     }
 
    
